@@ -1,16 +1,10 @@
 const questions = {
   'Q01': {
-    'type': 'radio',
-    'title': 'Overall Credibility',
-    'question': 'Rate your impression of the credibility of this article',
-    'choices': [
-      '1.01.01:Very low credibility',
-      '1.01.02:Somewhat low credibility',
-      '1.01.03:Medium credibility',
-      '1.01.04:Somewhat high credibility',
-      '1.01.05:High credibility',
-    ],
-    'anchored': false,
+    'type': 'highlight',
+    'title': 'Motive',
+    'Question': 'Highlight the resons why additiional research is needed',
+    'anchored': true,
+    'repeatable': true,
   },
   'Q02': {
     'type': 'radio',
